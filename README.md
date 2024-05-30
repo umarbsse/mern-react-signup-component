@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Mern (Mongo Express Reactjs Node) Stack application signup/create_user_account component
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This project was bootstrapped with Mern Stack Modules used in react and express are listed bellow
 
 
 # Getting Started with Create React App
