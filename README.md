@@ -1,12 +1,51 @@
 # Mern Stack signup component
 
 
-This project was bootstrapped with Mern Stack Modules used in react and express are listed bellow
+This project was bootstrapped with Mern Stack. Please install the package bellow
 
 
-# Getting Started with Create React App
+# Express.js packages
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+
+
+
+npm init 
+Enter basic details
+
+
+
+npm i express 
+install express server
+
+
+npm i mongoose
+install abstraction layer for mongo db connection
+
+
+
+npm i -D nodemon
+-D = Dev dependency
+
+
+
+npm install --save express-validator
+used for validation
+
+
+
+npm i bcryptjs
+used for password salt and pepper
+
+
+
+npm i jsonwebtoken
+Used for web token generation in express.js
+
+npm i cors
+CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.
 
 ## Available Scripts
 
