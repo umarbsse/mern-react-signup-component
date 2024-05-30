@@ -6,7 +6,6 @@ This project was bootstrapped with Mern Stack. Please install the packages bello
 
 # Express.js packages
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### `npm init `
 After giving above command enter basic details
@@ -36,5 +35,8 @@ CORS is a node.js package for providing a Connect/Express middleware that can be
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### `npm init `
-After giving above command enter basic details
+### `npm i react-router-dom `
+The react-router-dom package contains bindings for using React Router in web applications.
+
+### `npm i concurrently `
+Run multiple commands concurrently. Like npm run watch-js & npm run watch-less but better.
