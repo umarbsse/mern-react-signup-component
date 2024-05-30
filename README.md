@@ -9,21 +9,27 @@ This project was bootstrapped with Mern Stack. Please install the package bellow
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### `npm init `
-After giving that command enter basic details
+After giving above command enter basic details
 
-
-
-
-
-
-
-
-npm i express 
+### `npm i express `
 install express server
 
-
-npm i mongoose
+### `npm i mongoose `
 install abstraction layer for mongo db connection
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
 
 
 
