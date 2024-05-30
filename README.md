@@ -1,4 +1,4 @@
-# Mern Stack application signup component
+# Mern Stack signup component
 
 
 This project was bootstrapped with Mern Stack Modules used in react and express are listed bellow
