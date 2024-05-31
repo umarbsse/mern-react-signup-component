@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import Signup from './components/Signup';
 import Alert from './components/Alert';
 import { useState } from 'react';
+import About from './components/About';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <div className="container">
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About/>} />
               <Route path="/signup" element={<Signup showAlert={showAlert} />} />
             </Routes>
           </div>
