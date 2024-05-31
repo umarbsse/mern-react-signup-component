@@ -33,7 +33,13 @@ CORS is a node.js package for providing a Connect/Express middleware that can be
 
 # React.js packages
 
+
+### `npx create-react-app my-app `
+replace my-app with directory name
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+
 
 ### `npm i react-router-dom `
 The react-router-dom package contains bindings for using React Router in web applications.
