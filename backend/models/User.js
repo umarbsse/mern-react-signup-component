@@ -5,9 +5,15 @@ const { Schema } = mongoose;
 const user_collection_name = "user_accounts";
 
 const UserSchema = new Schema({
-  name: {
+  fname: {
     type: String,
     required: true
+  },
+  lname: {
+    type: String,
+  },
+  gender: {
+    type: String,
   },
   email: {
     type: String,

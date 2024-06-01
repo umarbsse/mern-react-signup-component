@@ -10,11 +10,11 @@ const JWT_SECRET = "UMERISNOTaGOODB$Y"
 router.post(
     "/createuser",
     [
-        body("name", "Enter a valid name").isLength({ min: 3 }).escape(),
+        body("fname", "Enter a valid first name").isLength({ min: 3 }).escape(),
+        body("lname", "Enter a valid last name").isLength({ min: 3 }).escape(),
+        body("gender", "Enter a valid gender").escape(),
         body("email", "Enter a valid email").isEmail().escape(),
-        body("password", "Password must be atleast 5 characters")
-            .isLength({ min: 5 })
-            .escape(),
+        body("password", "Password must be atleast 5 characters").isLength({ min: 5 }).escape(),
     ],
     async (req, res) => {
         let success = false;
@@ -38,7 +38,9 @@ router.post(
             const salt = await bcrypt.genSalt(10)
             const secPass = await bcrypt.hash(req.body.password,salt)
             user = await User.create({
-                name: req.body.name,
+                fname: req.body.fname,
+                lname: req.body.lname,
+                gender: req.body.gender,
                 email: req.body.email,
                 password: secPass,
             });
